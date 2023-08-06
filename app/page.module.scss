@@ -3,5 +3,14 @@
   padding: 0 2em;
   margin: 0 auto;
   line-height: 1.5;
+}
 
+.pfblock {
+  
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
 }

@@ -1,0 +1,33 @@
+.item {
+//   border-radius: 1rem;
+//   box-shadow: 1px 4px 26px 2px rgba(34, 60, 80, 0.2);
+  padding: 1em;
+
+  &__pic {
+    // overflow: hidden;
+    // margin: 1em;
+    img {
+      max-width: 100%;
+      height: auto;
+      transition: 0.3s all ease;
+      //
+      box-shadow: 1px 4px 26px 2px rgba(34, 60, 80, 0.2);
+      border-radius: 1rem;
+    }
+    &:hover {
+      img {
+        filter: contrast(200%);
+        // transform: scale(1.1);
+      }
+    }
+  }
+
+  &__info {
+    font-size: 0.9em;
+    padding: 1em;
+  }
+
+  &__header {
+    font-weight: bold;
+  }
+}

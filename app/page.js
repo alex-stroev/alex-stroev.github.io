@@ -1,5 +1,9 @@
 import Image from "next/image";
 import styles from "./page.module.scss";
+import PortfolioItem from "./__components/PortfolioItem";
+
+import testtt from "./testtt";
+
 export const metadata = {
   title: "Александр Строев - HTML-верстальщик/Frontend-разработчик",
   description: "",
@@ -26,6 +30,8 @@ export default function Home() {
     default:
       hello = "Здравствуйте";
   }
+
+  const pseudo = "4 3 d d d d d d".split(" ");
 
   return (
     <div className={styles.kernel}>
@@ -91,12 +97,27 @@ export default function Home() {
         Аккуратен, внимателен к&nbsp;мелочам, умею расставлять приоритеты,
         неконфликтен.
       </p>
-      {/* <h2>Портфолио (выборочно)</h2>
+      <h2>Портфолио (выборочно)</h2>
       <p>
         Со&nbsp;временем многие сайты исчезают из&nbsp;сети или проходят
         редизайн (и, соответственно, переверстку). Так что указанное портфолио
         составляет в&nbsp;лучшем случае несколько процентов от&nbsp;реального.
-      </p> */}
+      </p>
+
+      <div className={styles.pfblock}>
+        <div className={styles.pfblock__grid}>
+          {testtt.map((item, index) => (
+            <PortfolioItem
+              key={index}
+              img="/screens/splitconfigurator.png"
+              title="Конфигуратор коммерческой сплит-системы | Samsung для бизнеса РОССИЯ"
+              link="https://www.samsung.com/ru/business/system-air-conditioners/single-split-cac/cac-configurator/"
+            >
+              <div dangerouslySetInnerHTML={{ __html: item }} />
+            </PortfolioItem>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
