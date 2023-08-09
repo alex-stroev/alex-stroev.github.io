@@ -64,6 +64,7 @@ export default function Home() {
         <li>
           HTML&nbsp;&mdash; от&nbsp;таблиц до&nbsp;flex/grid. Верстаю
           кроссбраузерно и&nbsp;адаптивно (fluid). Предпочитаю BEM-naming.
+          Фреймворки не&nbsp;использую, пишу код с&nbsp;нуля.
         </li>
         <li>CSS&nbsp;&mdash; SCSS/LESS, CSS modules.</li>
         <li>
