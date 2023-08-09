@@ -2,8 +2,6 @@ import Image from "next/image";
 import styles from "./page.module.scss";
 import PortfolioItem from "./__components/PortfolioItem";
 
-import testtt from "./testtt";
-
 export const metadata = {
   title: "Александр Строев - HTML-верстальщик/Frontend-разработчик",
   description: "",
@@ -31,15 +29,16 @@ export default function Home() {
       hello = "Здравствуйте";
   }
 
-  const pseudo = "4 3 d d d d d d".split(" ");
-
   return (
     <div className={styles.kernel}>
+      <div className={styles.face}>
+        <Image src="/face/01sda.jpg" width={300} height={400} alt={""} />
+      </div>
       <p>
-        {hello}. Меня зовут Александр,
-        я&nbsp;HTML-верстальщик/Frontend-разработчик.
+        {hello}. Меня зовут <strong>Александр</strong>,
+        я&nbsp;<strong>HTML-верстальщик/Frontend-разработчик</strong>.
       </p>
-      <p>В&nbsp;настоящее время ищу постоянную работу. </p>
+      <p>В&nbsp;настоящее время ищу <strong>постоянную работу</strong>. </p>
       <p>
         <a
           href="https://hh.ru/applicant/resumes/view?resume=8afc8cbdff0016f7b70039ed1f736563726574"
@@ -62,26 +61,26 @@ export default function Home() {
       <h2>Основные навыки</h2>
       <ul>
         <li>
-          HTML&nbsp;&mdash; от&nbsp;таблиц до&nbsp;flex/grid. Верстаю
+          <strong>HTML</strong>&nbsp;&mdash; от&nbsp;таблиц до&nbsp;<strong>flex/grid</strong>. Верстаю
           кроссбраузерно и&nbsp;адаптивно (fluid). Предпочитаю BEM-naming.
           Фреймворки не&nbsp;использую, пишу код с&nbsp;нуля.
         </li>
-        <li>CSS&nbsp;&mdash; SCSS/LESS, CSS modules.</li>
+        <li><strong>CSS</strong>&nbsp;&mdash; <strong>SCSS/LESS</strong>, <strong>CSS modules</strong>.</li>
         <li>
-          JS&nbsp;&mdash; ванилька или jQuery. Также есть опыт работы
-          с&nbsp;TypeScript, при необходимости быстро вспомню.
+          <strong>JS</strong>&nbsp;&mdash; ванилька или <strong>jQuery</strong>. Также есть опыт работы
+          с&nbsp;<strong>TypeScript</strong>, при необходимости быстро вспомню.
         </li>
         <li>
-          React&nbsp;&mdash; верстка и&nbsp;интеграция компонентов
+          <strong>React</strong>&nbsp;&mdash; верстка и&nbsp;интеграция компонентов
           на&nbsp;хуках. Элементы UI-kit, получение и&nbsp;вывод данных
-          с&nbsp;REST API, React Router, Redux, React Hook Form, изучаю Next.js.
+          с&nbsp;<strong>REST API</strong>, <strong>React Router</strong>, <strong>Redux</strong>, <strong>React Hook Form</strong>, изучаю <strong>Next.js</strong>.
         </li>
         <li>
-          CMS&nbsp;&mdash; приходилось работать с&nbsp;1C&nbsp;Bitrix,
-          Wordpress.
+          <strong>CMS</strong>&nbsp;&mdash; приходилось работать с&nbsp;<strong>1C&nbsp;Bitrix</strong>,
+          <strong>Wordpress</strong>.
         </li>
         <li>
-          git&nbsp;&mdash; стандартный джентльменский набор&nbsp;&mdash;
+          <strong>git</strong>&nbsp;&mdash; стандартный джентльменский набор&nbsp;&mdash;
           ответвиться, внести правки (от&nbsp;пары символов до&nbsp;новой фичи),
           долить мастер, сделать request, при необходимости разрулить конфликты
           и&nbsp;так далее.
@@ -90,7 +89,7 @@ export default function Home() {
 
       <ul>
         <li>
-          Работаю с&nbsp;исходниками в&nbsp;форматах PSD, Zeplin, Figma. При
+          Работаю с&nbsp;исходниками в&nbsp;форматах <strong>PSD</strong>, <strong>Zeplin</strong>, <strong>Figma</strong>. При
           необходимости могу обойтись и&nbsp;без отрисованного макета, опираясь
           на&nbsp;общую концепцию дизайна.
         </li>
@@ -259,7 +258,7 @@ export default function Home() {
           >
             <p>
               Дедушка-бронтозавр из&nbsp;2004&nbsp;года, эпохи табличной верстки
-              и&nbsp;абсолютного доминирование IE.
+              и&nbsp;абсолютного доминирования IE.
             </p>
             <p>Держу в&nbsp;портфолио из&nbsp;сентиментальных соображений))</p>
           </PortfolioItem>

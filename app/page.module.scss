@@ -3,6 +3,46 @@
   padding: 0 2em;
   margin: 0 auto;
   line-height: 1.5;
+
+  ul {
+    position: relative;
+    li {
+      margin: 0;
+      padding: 0;
+      list-style-position: outside;
+      position: relative;
+      padding-bottom: 0.75em;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    &:link,
+    &:visited {
+      color: #3c9df2;
+    }
+
+    &:hover,
+    &:active {
+      color: #e53e3e;
+    }
+  }
+}
+
+.face {
+  float: left;
+  margin: 0 2em 1em 0;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 600px) {
+    float: none;
+    margin: 1em auto 0;
+    text-align: center;
+  }
 }
 
 .pfblock {
