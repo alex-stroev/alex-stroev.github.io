@@ -1,24 +1,44 @@
 .item {
-//   border-radius: 1rem;
-//   box-shadow: 1px 4px 26px 2px rgba(34, 60, 80, 0.2);
   padding: 1em;
 
   &__pic {
-    // overflow: hidden;
-    // margin: 1em;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1rem;
+    box-shadow: 1px 4px 26px 2px rgba(34, 60, 80, 0.2);
+
+    a {
+      background-color: gold;
+      &::after {
+        content: "";
+        position: absolute;
+        transition: 0.3s all ease;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 40%;
+        background: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 1) 0%,
+          rgba(255, 255, 255, 0) 100%
+        );
+        z-index: 1;
+      }
+      &:hover {
+        &::after {
+          opacity: 0;
+        }
+      }
+    }
+
     img {
       max-width: 100%;
       height: auto;
       transition: 0.3s all ease;
-      //
-      box-shadow: 1px 4px 26px 2px rgba(34, 60, 80, 0.2);
-      border-radius: 1rem;
+      display: block;
     }
     &:hover {
-      img {
-        filter: contrast(200%);
-        // transform: scale(1.1);
-      }
+      //
     }
   }
 
