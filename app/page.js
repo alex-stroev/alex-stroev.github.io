@@ -39,8 +39,8 @@ export default function Home() {
         {hello}. Меня зовут Александр,
         я&nbsp;HTML-верстальщик/Frontend-разработчик.
       </p>
+      <p>В&nbsp;настоящее время ищу постоянную работу. </p>
       <p>
-        В&nbsp;настоящее время ищу постоянную работу.{" "}
         <a
           href="https://hh.ru/applicant/resumes/view?resume=8afc8cbdff0016f7b70039ed1f736563726574"
           target="_blank"
@@ -48,16 +48,17 @@ export default function Home() {
         >
           Мое резюме на&nbsp;hh.ru
         </a>
-        <p>
-          <a
-            href="https://shorturl.at/nuPUY"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Telegram для связи
-          </a>
-        </p>
       </p>
+      <p>
+        <a
+          href="https://shorturl.at/nuPUY"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Telegram для связи
+        </a>
+      </p>
+
       <h2>Основные навыки</h2>
       <ul>
         <li>
