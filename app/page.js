@@ -48,6 +48,15 @@ export default function Home() {
         >
           Мое резюме на&nbsp;hh.ru
         </a>
+        <p>
+          <a
+            href="https://shorturl.at/nuPUY"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Telegram для связи
+          </a>
+        </p>
       </p>
       <h2>Основные навыки</h2>
       <ul>
