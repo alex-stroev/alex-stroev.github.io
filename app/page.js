@@ -85,8 +85,9 @@ export default function Home() {
           концепцию дизайна.
         </li>
         <li>
-          Имею опыт как одиночной разработки, так и&nbsp;работы в&nbsp;команде
-          (Jetbrains&nbsp;YouTrack, Jira, Trello).
+          Имею опыт как одиночной разработки, так и&nbsp;работы в&nbsp;команде (
+          <strong>Jetbrains&nbsp;YouTrack</strong>, <strong>Jira</strong>,{" "}
+          <strong>Trello</strong>).
         </li>
         <li>В&nbsp;гугле и&nbsp;на&nbsp;Stack Overflow не&nbsp;забанен.</li>
         <li>
