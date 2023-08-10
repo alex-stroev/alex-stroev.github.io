@@ -139,7 +139,7 @@ export default function Home() {
           >
             <p>
               Встроенная область на сайте Samsung (от верхнего меню до нижних
-              "хлебных крошек")
+              &laquo;хлебных крошек&raquo;)
             </p>
             <p>Лендинг</p>
           </PortfolioItem>
@@ -151,7 +151,7 @@ export default function Home() {
           >
             <p>
               Встроенная область на сайте Samsung (от верхнего меню до нижних
-              "хлебных крошек")
+              &laquo;хлебных крошек&raquo;)
             </p>
             <p>Лендинг</p>
           </PortfolioItem>
@@ -163,7 +163,7 @@ export default function Home() {
           >
             <p>
               Встроенная область на сайте Samsung (от верхнего меню до нижних
-              "хлебных крошек")
+              &laquo;хлебных крошек&raquo;)
             </p>
             <p>Лендинг</p>
           </PortfolioItem>
@@ -175,7 +175,7 @@ export default function Home() {
           >
             <p>
               Встроенная область на сайте Samsung (от верхнего меню до нижних
-              "хлебных крошек")
+              &laquo;хлебных крошек&raquo;)
             </p>
             <p>Лендинг</p>
           </PortfolioItem>
