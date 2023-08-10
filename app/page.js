@@ -86,6 +86,7 @@ export default function Home() {
         </li>
         <li>
           Имею опыт как одиночной разработки, так и&nbsp;работы в&nbsp;команде
+          (Jetbrains&nbsp;YouTrack, Jira, Trello).
         </li>
         <li>В&nbsp;гугле и&nbsp;на&nbsp;Stack Overflow не&nbsp;забанен.</li>
         <li>
