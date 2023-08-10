@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.scss";
 import PortfolioItem from "./__components/PortfolioItem";
+import Hello from "./__components/Hello";
 
 export const metadata = {
   title: "Александр Строев - HTML-верстальщик/Frontend-разработчик",
@@ -9,36 +10,18 @@ export const metadata = {
 };
 
 export default function Home() {
-  const time = new Date().getHours();
-  let hello;
-
-  switch (true) {
-    case time < 6:
-      hello = "Доброй ночи";
-      break;
-    case time < 12:
-      hello = "Доброе утро";
-      break;
-    case time < 18:
-      hello = "Добрый день";
-      break;
-    case time <= 23:
-      hello = "Добрый вечер";
-      break;
-    default:
-      hello = "Здравствуйте";
-  }
-
   return (
     <div className={styles.kernel}>
       <div className={styles.face}>
         <Image src="/face/01sda.jpg" width={300} height={400} alt={""} />
       </div>
       <p>
-        {hello}. Меня зовут <strong>Александр</strong>,
-        я&nbsp;<strong>HTML-верстальщик/Frontend-разработчик</strong>.
+        <Hello /> Меня зовут <strong>Александр</strong>, я&nbsp;
+        <strong>HTML-верстальщик/Frontend-разработчик</strong>.
       </p>
-      <p>В&nbsp;настоящее время ищу <strong>постоянную работу</strong>. </p>
+      <p>
+        В&nbsp;настоящее время ищу <strong>постоянную работу</strong>.{" "}
+      </p>
       <p>
         <a
           href="https://hh.ru/applicant/resumes/view?resume=8afc8cbdff0016f7b70039ed1f736563726574"
@@ -61,37 +44,45 @@ export default function Home() {
       <h2>Основные навыки</h2>
       <ul>
         <li>
-          <strong>HTML</strong>&nbsp;&mdash; от&nbsp;таблиц до&nbsp;<strong>flex/grid</strong>. Верстаю
-          кроссбраузерно и&nbsp;адаптивно (fluid). Предпочитаю BEM-naming.
-          Фреймворки не&nbsp;использую, пишу код с&nbsp;нуля.
-        </li>
-        <li><strong>CSS</strong>&nbsp;&mdash; <strong>SCSS/LESS</strong>, <strong>CSS modules</strong>.</li>
-        <li>
-          <strong>JS</strong>&nbsp;&mdash; ванилька или <strong>jQuery</strong>. Также есть опыт работы
-          с&nbsp;<strong>TypeScript</strong>, при необходимости быстро вспомню.
+          <strong>HTML</strong>&nbsp;&mdash; от&nbsp;таблиц до&nbsp;
+          <strong>flex/grid</strong>. Верстаю кроссбраузерно и&nbsp;адаптивно
+          (fluid). Предпочитаю BEM-naming. Фреймворки не&nbsp;использую, пишу
+          код с&nbsp;нуля.
         </li>
         <li>
-          <strong>React</strong>&nbsp;&mdash; верстка и&nbsp;интеграция компонентов
-          на&nbsp;хуках. Элементы UI-kit, получение и&nbsp;вывод данных
-          с&nbsp;<strong>REST API</strong>, <strong>React Router</strong>, <strong>Redux</strong>, <strong>React Hook Form</strong>, изучаю <strong>Next.js</strong>.
+          <strong>CSS</strong>&nbsp;&mdash; <strong>SCSS/LESS</strong>,{" "}
+          <strong>CSS modules</strong>.
         </li>
         <li>
-          <strong>CMS</strong>&nbsp;&mdash; приходилось работать с&nbsp;<strong>1C&nbsp;Bitrix</strong>,
-          <strong>Wordpress</strong>.
+          <strong>JS</strong>&nbsp;&mdash; ванилька или <strong>jQuery</strong>.
+          Также есть опыт работы с&nbsp;<strong>TypeScript</strong>, при
+          необходимости быстро вспомню.
         </li>
         <li>
-          <strong>git</strong>&nbsp;&mdash; стандартный джентльменский набор&nbsp;&mdash;
-          ответвиться, внести правки (от&nbsp;пары символов до&nbsp;новой фичи),
-          долить мастер, сделать request, при необходимости разрулить конфликты
-          и&nbsp;так далее.
+          <strong>React</strong>&nbsp;&mdash; верстка и&nbsp;интеграция
+          компонентов на&nbsp;хуках. Элементы UI-kit, получение и&nbsp;вывод
+          данных с&nbsp;<strong>REST API</strong>, <strong>React Router</strong>
+          , <strong>Redux</strong>, <strong>React Hook Form</strong>, изучаю{" "}
+          <strong>Next.js</strong>.
+        </li>
+        <li>
+          <strong>CMS</strong>&nbsp;&mdash; приходилось работать с&nbsp;
+          <strong>1C&nbsp;Bitrix</strong>,<strong>Wordpress</strong>.
+        </li>
+        <li>
+          <strong>git</strong>&nbsp;&mdash; стандартный джентльменский
+          набор&nbsp;&mdash; ответвиться, внести правки (от&nbsp;пары символов
+          до&nbsp;новой фичи), долить мастер, сделать request, при необходимости
+          разрулить конфликты и&nbsp;так далее.
         </li>
       </ul>
 
       <ul>
         <li>
-          Работаю с&nbsp;исходниками в&nbsp;форматах <strong>PSD</strong>, <strong>Zeplin</strong>, <strong>Figma</strong>. При
-          необходимости могу обойтись и&nbsp;без отрисованного макета, опираясь
-          на&nbsp;общую концепцию дизайна.
+          Работаю с&nbsp;исходниками в&nbsp;форматах <strong>PSD</strong>,{" "}
+          <strong>Zeplin</strong>, <strong>Figma</strong>. При необходимости
+          могу обойтись и&nbsp;без отрисованного макета, опираясь на&nbsp;общую
+          концепцию дизайна.
         </li>
         <li>
           Имею опыт как одиночной разработки, так и&nbsp;работы в&nbsp;команде
