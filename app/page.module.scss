@@ -60,3 +60,10 @@
     }
   }
 }
+
+.bunny {
+  &::before {
+    content: "и вообще весь такой зайка";
+    text-decoration: line-through;
+  }
+}

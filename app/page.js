@@ -20,6 +20,10 @@ export default function Home() {
         <strong>HTML-верстальщик/Frontend-разработчик</strong>.
       </p>
       <p>
+        Наверстываю людям упущенное, спасаю технических должников
+        от&nbsp;технического банкротства 😉
+      </p>
+      <p>
         В&nbsp;настоящее время ищу <strong>постоянную работу</strong>.{" "}
       </p>
       <p>
@@ -61,9 +65,9 @@ export default function Home() {
         <li>
           <strong>React</strong>&nbsp;&mdash; верстка и&nbsp;интеграция
           компонентов на&nbsp;хуках. Элементы UI-kit, получение и&nbsp;вывод
-          данных с&nbsp;<strong>REST API</strong>, <strong>React Router</strong>
-          , <strong>Redux</strong>, <strong>React Hook Form</strong>, изучаю{" "}
-          <strong>Next.js</strong>.
+          данных с&nbsp;<strong>REST&nbsp;API</strong>,{" "}
+          <strong>React&nbsp;Router</strong>, <strong>Redux</strong>,{" "}
+          <strong>React Hook Form</strong>, изучаю <strong>Next.js</strong>.
         </li>
         <li>
           <strong>CMS</strong>&nbsp;&mdash; приходилось работать с&nbsp;
@@ -89,7 +93,13 @@ export default function Home() {
           <strong>Jetbrains&nbsp;YouTrack</strong>, <strong>Jira</strong>,{" "}
           <strong>Trello</strong>).
         </li>
-        <li>В&nbsp;гугле и&nbsp;на&nbsp;Stack Overflow не&nbsp;забанен.</li>
+        <li>
+          В&nbsp;гугле и&nbsp;на&nbsp;Stack Overflow не&nbsp;забанен. Если
+          решение некоей задачи мне <em>пока</em> не&nbsp;известно,
+          а&nbsp;типового варианта на&nbsp;проекте нет, нахожу решение
+          самостоятельно.
+        </li>
+        <li>Есть опыт координации небольших команд (дизайн-фронт-бэк).</li>
         <li>
           Английский язык на&nbsp;уровне переписки и&nbsp;чтения документации -
           intermediate.
@@ -98,7 +108,7 @@ export default function Home() {
 
       <p>
         Аккуратен, внимателен к&nbsp;мелочам, умею расставлять приоритеты,
-        неконфликтен.
+        неконфликтен <span className={styles.bunny}></span>.
       </p>
       <h2>Портфолио (выборочно)</h2>
       <p>
