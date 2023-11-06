@@ -52,11 +52,12 @@ export default function Home() {
           <strong>flex/grid</strong>. Верстаю кроссбраузерно и&nbsp;адаптивно
           (fluid). Стремлюсь обеспечивать доступность контента на&nbsp;всех
           вьюпортах, не&nbsp;только на&nbsp;&laquo;стандартных&raquo;
-          1920/1024/etc. Предпочитаю <strong>BEM-naming</strong>, пишу без
-          фреймворков (кроме тех случаев, когда они уже используются
-          в&nbsp;проекте). Есть опыт как создания сайтов с&nbsp;нуля
-          (то&nbsp;есть с&nbsp;дизайн-макета), так и&nbsp;работы над
-          &laquo;живыми&raquo; высоконагруженными проектами.
+          1920/1024/etc. Предпочитаю{" "}
+          <strong className="nobr">BEM-naming</strong>, пишу без фреймворков
+          (кроме тех случаев, когда они уже используются в&nbsp;проекте). Есть
+          опыт как создания сайтов с&nbsp;нуля (то&nbsp;есть
+          с&nbsp;дизайн-макета), так и&nbsp;работы над &laquo;живыми&raquo;
+          высоконагруженными проектами.
         </li>
         <li>Верстка e-mail.</li>
         <li>
@@ -71,10 +72,15 @@ export default function Home() {
         </li>
         <li>
           <strong>React</strong>&nbsp;&mdash; верстка и&nbsp;интеграция
-          компонентов на&nbsp;хуках. Создание <strong>элементов UI-kit</strong>,
-          получение и&nbsp;вывод данных с&nbsp;<strong>REST API</strong>,{" "}
-          <strong>React Router</strong>, <strong>Redux</strong>,{" "}
-          <strong>React Hook Form</strong>, изучаю <strong>Next.js</strong>.
+          компонентов на&nbsp;хуках. Создание{" "}
+          <strong>
+            элементов <span className="nobr">UI-kit</span>
+          </strong>
+          , получение и&nbsp;вывод данных с&nbsp;
+          <strong className="nobr">REST API</strong>,{" "}
+          <strong className="nobr">React Router</strong>, <strong>Redux</strong>
+          , <strong className="nobr">React Hook Form</strong>, изучаю{" "}
+          <strong>Next.js</strong>.
         </li>
         <li>
           <strong>CMS</strong>&nbsp;&mdash; приходилось работать с&nbsp;
