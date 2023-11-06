@@ -50,28 +50,36 @@ export default function Home() {
         <li>
           <strong>HTML</strong>&nbsp;&mdash; от&nbsp;таблиц до&nbsp;
           <strong>flex/grid</strong>. Верстаю кроссбраузерно и&nbsp;адаптивно
-          (fluid). Предпочитаю BEM-naming. Фреймворки не&nbsp;использую, пишу
-          код с&nbsp;нуля.
+          (fluid). Стремлюсь обеспечивать доступность контента на&nbsp;всех
+          вьюпортах, не&nbsp;только на&nbsp;&laquo;стандартных&raquo;
+          1920/1024/etc. Предпочитаю <strong>BEM-naming</strong>, пишу без
+          фреймворков (кроме тех случаев, когда они уже используются
+          в&nbsp;проекте). Есть опыт как создания сайтов с&nbsp;нуля
+          (то&nbsp;есть с&nbsp;дизайн-макета), так и&nbsp;работы над
+          &laquo;живыми&raquo; высоконагруженными проектами.
         </li>
+        <li>Верстка e-mail.</li>
         <li>
           <strong>CSS</strong>&nbsp;&mdash; <strong>SCSS/LESS</strong>,{" "}
           <strong>CSS modules</strong>.
         </li>
         <li>
-          <strong>JS</strong>&nbsp;&mdash; ванилька или <strong>jQuery</strong>.
-          Также есть опыт работы с&nbsp;<strong>TypeScript</strong>, при
-          необходимости быстро вспомню.
+          <strong>JS</strong>&nbsp;&mdash; <strong>Vanilla</strong>{" "}
+          (&laquo;чистый&raquo;) JS&nbsp;или <strong>jQuery</strong>. Также есть
+          опыт работы с&nbsp;<strong>TypeScript</strong>, при необходимости
+          быстро вспомню.
         </li>
         <li>
           <strong>React</strong>&nbsp;&mdash; верстка и&nbsp;интеграция
-          компонентов на&nbsp;хуках. Элементы UI-kit, получение и&nbsp;вывод
-          данных с&nbsp;<strong>REST&nbsp;API</strong>,{" "}
-          <strong>React&nbsp;Router</strong>, <strong>Redux</strong>,{" "}
+          компонентов на&nbsp;хуках. Создание <strong>элементов UI-kit</strong>,
+          получение и&nbsp;вывод данных с&nbsp;<strong>REST API</strong>,{" "}
+          <strong>React Router</strong>, <strong>Redux</strong>,{" "}
           <strong>React Hook Form</strong>, изучаю <strong>Next.js</strong>.
         </li>
         <li>
           <strong>CMS</strong>&nbsp;&mdash; приходилось работать с&nbsp;
-          <strong>1C&nbsp;Bitrix</strong>,<strong>Wordpress</strong>.
+          <strong>1C&nbsp;Bitrix</strong>, <strong>Wordpress</strong>,{" "}
+          <strong>Adobe Experience Manager</strong>.
         </li>
         <li>
           <strong>git</strong>&nbsp;&mdash; стандартный джентльменский
@@ -80,7 +88,6 @@ export default function Home() {
           разрулить конфликты и&nbsp;так далее.
         </li>
       </ul>
-
       <ul>
         <li>
           Работаю с&nbsp;исходниками в&nbsp;форматах <strong>PSD</strong>,{" "}
