@@ -5,8 +5,7 @@ import Hello from "./__components/Hello";
 
 export const metadata = {
   title: "Александр Строев - HTML-верстальщик/Frontend-разработчик",
-  description: "",
-  robots: "noindex, nofollow",
+  description: "Александр Строев - HTML-верстальщик/Frontend-разработчик. Резюме и портфолио",
 };
 
 export default function Home() {
