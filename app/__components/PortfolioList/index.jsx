@@ -1,7 +1,33 @@
+"use client";
 import PortfolioItem from "../PortfolioItem";
 import styles from "./styles.module.scss";
+import { useLayoutEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/src/ScrollTrigger";
+
+if (typeof window !== `undefined`) {
+    gsap.registerPlugin(ScrollTrigger);
+}
 
 const PortfolioList = () => {
+    useLayoutEffect(() => {
+        ScrollTrigger.batch(`.${styles.pfblock__grid} > div`, {
+            interval: 0.1,
+            onEnter: (batch) => {
+                // batch.forEach((el) => el.classList.add("is-visible"));
+                gsap.fromTo(
+                    batch,
+                    { y: -40 },
+                    {
+                        autoAlpha: 1,
+                        stagger: 0.2,
+                        y: 0,
+                    }
+                );
+            },
+        });
+    }, []);
+
     return (
         <>
             <h2>Портфолио (выборочно)</h2>
