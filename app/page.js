@@ -58,9 +58,9 @@ export default function Home() {
             <ul>
                 <li>
                     <strong>HTML</strong>&nbsp;&mdash; от&nbsp;таблиц до&nbsp;
-                    <strong>flex/grid</strong>. Верстаю кроссбраузерно
-                    и&nbsp;адаптивно (fluid). Стремлюсь обеспечивать доступность
-                    контента на&nbsp;всех вьюпортах, не&nbsp;только
+                    <strong>flex/grid</strong>. Верстаю кроссбраузерно и&nbsp;
+                    <strong>адаптивно</strong> (fluid). Стремлюсь обеспечивать
+                    доступность контента на&nbsp;всех вьюпортах, не&nbsp;только
                     на&nbsp;&laquo;стандартных&raquo; 1920/1024/etc. Предпочитаю{" "}
                     <strong className="nobr">BEM-naming</strong>, пишу без
                     фреймворков (кроме тех случаев, когда они уже используются

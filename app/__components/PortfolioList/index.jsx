@@ -13,12 +13,6 @@ const PortfolioList = () => {
     const comp = useRef(null);
 
     useLayoutEffect(() => {
-        // let ctx = gsap.context(() => {
-
-        // }, comp);
-
-        // return () => ctx.revert();
-
         ScrollTrigger.batch(`.${styles.pfblock__grid} > div`, {
             interval: 0.1,
             onEnter: (batch) => {
