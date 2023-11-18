@@ -146,7 +146,7 @@ export default function Home() {
                 приоритеты, неконфликтен.
             </p>
 
-            {/* <PortfolioList /> */}
+            <PortfolioList />
         </div>
     );
 }

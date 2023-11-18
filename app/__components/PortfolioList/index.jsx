@@ -13,25 +13,28 @@ const PortfolioList = () => {
     const comp = useRef(null);
 
     useLayoutEffect(() => {
-        let ctx = gsap.context(() => {
-            ScrollTrigger.batch(`.${styles.pfblock__grid} > div`, {
-                interval: 0.1,
-                onEnter: (batch) => {
-                    // batch.forEach((el) => el.classList.add("is-visible"));
-                    gsap.fromTo(
-                        batch,
-                        { y: -40 },
-                        {
-                            autoAlpha: 1,
-                            stagger: 0.2,
-                            y: 0,
-                        }
-                    );
-                },
-            });
-        }, comp);
+        // let ctx = gsap.context(() => {
 
-        return () => ctx.revert();
+        // }, comp);
+
+        // return () => ctx.revert();
+
+        ScrollTrigger.batch(`.${styles.pfblock__grid} > div`, {
+            interval: 0.1,
+            onEnter: (batch) => {
+                // batch.forEach((el) => el.classList.add("is-visible"));
+                gsap.fromTo(
+                    batch,
+                    { y: -40, opacity: 0 },
+                    {
+                        autoAlpha: 1,
+                        opacity: 1,
+                        stagger: 0.2,
+                        y: 0,
+                    }
+                );
+            },
+        });
     }, []);
 
     return (
