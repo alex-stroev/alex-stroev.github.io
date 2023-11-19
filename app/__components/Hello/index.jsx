@@ -19,6 +19,6 @@ const Hello = () => {
     default:
       hello = "Здравствуйте";
   }
-  return <>{hello}.</>;
+  return <>{time} {hello}.</>;
 };
 export default Hello;
