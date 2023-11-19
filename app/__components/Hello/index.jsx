@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 const Hello = () => {
   const time = new Date().getHours();
   let hello;
