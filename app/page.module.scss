@@ -3,6 +3,8 @@
     padding: 0 2em;
     margin: 0 auto;
     line-height: 1.5;
+    position: relative;
+    z-index: 2;
 
     ul {
         position: relative;
@@ -36,6 +38,7 @@
     img {
         max-width: 100%;
         height: auto;
+        border-radius: 50%;
     }
 
     @media (max-width: 600px) {

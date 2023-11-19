@@ -14,8 +14,8 @@ export default function Home() {
         <div className={styles.kernel}>
             <div className={styles.face}>
                 <Image
-                    src="/face/01sda.jpg"
-                    width={300}
+                    src="/face/03fwe.jpg"
+                    width={400}
                     height={400}
                     alt={""}
                     priority={true}
