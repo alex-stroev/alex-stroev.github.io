@@ -130,6 +130,28 @@ const PortfolioList = () => {
                         </p>
                     </PortfolioItem>
                     <PortfolioItem
+                        img="/screens/ttstars-wfc-tv.png"
+                        title="Лендинг &laquo;Стань звездой Tik-Tok вместе с WFC.TV&raquo;"
+                        link="https://alex-stroev.github.io/ttstars.wfc.tv/"
+                        year="2021"
+                    >
+                        <p>
+                            Лендинг сделан во&nbsp;время работы в&nbsp;Mercury
+                            Media Group, 2021
+                        </p>
+                    </PortfolioItem>
+                    <PortfolioItem
+                        img="/screens/stars-wfc-tv.png"
+                        title="Лендинг &laquo;Стань лицом телеканала World Fashion Channel&raquo;"
+                        link="https://alex-stroev.github.io/stars.wfc.tv/"
+                        year="2021"
+                    >
+                        <p>
+                            Лендинг сделан во&nbsp;время работы в&nbsp;Mercury
+                            Media Group, 2021
+                        </p>
+                    </PortfolioItem>
+                    <PortfolioItem
                         img="/screens/calligraphy-museum.png"
                         title="Музей мировой каллиграфии — лучшие образцы красивого письма в Москве"
                         link="https://www.calligraphy-museum.com/"
@@ -137,28 +159,7 @@ const PortfolioList = () => {
                     >
                         <p>Сайт музея мировой каллиграфии, 2016&nbsp;г.</p>
                     </PortfolioItem>
-                    <PortfolioItem
-                        img="/screens/calligraphy-expo.png"
-                        title="Международная выставка каллиграфии"
-                        link="http://calligraphy-expo.com/"
-                        year="2016"
-                    >
-                        <p>
-                            Сайт международной выставки каллиграфии,
-                            2016&nbsp;г.
-                        </p>
-                    </PortfolioItem>
-                    <PortfolioItem
-                        img="/screens/fish-expo.png"
-                        title="Фестиваль &laquo;Ешь рыбу&raquo;, выставка рыбной индустрии. КВЦ Сокольники, 2017&nbsp;г"
-                        link="http://fish-expo.com/"
-                        year="2016"
-                    >
-                        <p>
-                            Лендинг для выставки в&nbsp;КВЦ
-                            &laquo;Сокольники&raquo;, 2016&nbsp;г.
-                        </p>
-                    </PortfolioItem>
+
                     <PortfolioItem
                         img="/screens/foodtruck-fest.png"
                         title="Фестиваль Фудтраков в Сокольниках"
