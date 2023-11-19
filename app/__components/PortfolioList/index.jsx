@@ -5,14 +5,14 @@ import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/src/ScrollTrigger";
 
-if (typeof window !== `undefined`) {
-    gsap.registerPlugin(ScrollTrigger);
-}
-
 const PortfolioList = () => {
     const comp = useRef(null);
 
     useLayoutEffect(() => {
+        if (typeof window !== `undefined`) {
+            gsap.registerPlugin(ScrollTrigger);
+        }
+
         ScrollTrigger.batch(`.${styles.pfblock__grid} > div`, {
             interval: 0.1,
             onEnter: (batch) => {
