@@ -19,12 +19,27 @@
         text-decoration: none;
         &:link,
         &:visited {
-            color: #3c9df2;
+            color: var(--color-link);
         }
+
+        background-image: linear-gradient(
+            to right,
+            var(--color-hover),
+            var(--color-hover) 50%,
+            var(--color-link) 50%
+        );
+        background-origin: padding-box;
+        background-position-x: 100%;
+        background-position-y: 50%;
+        background-repeat: repeat;
+        background-size: 200% 100%;
+        background-clip: text;
+        transition: background-position 0.3s ease-out;
 
         &:hover,
         &:active {
-            color: #e53e3e;
+            color: transparent;
+            background-position: 0;
         }
     }
 }
