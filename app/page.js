@@ -41,7 +41,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Мое резюме на&nbsp;hh.ru
+                    <b>Мое резюме на&nbsp;hh.ru</b>
                 </a>
             </p>
             <p>
@@ -50,7 +50,7 @@ export default function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Telegram для связи
+                    <b>Telegram для связи</b>
                 </a>
             </p>
 
