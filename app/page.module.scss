@@ -19,7 +19,7 @@
         text-decoration: none;
         &:link,
         &:visited {
-            color: transparent;
+            -webkit-text-fill-color: rgba(255, 255, 255, 0);
         }
 
         background-image: linear-gradient(
@@ -37,7 +37,7 @@
 
         &:hover,
         &:active {
-            color: transparent;
+            -webkit-text-fill-color: rgba(255, 255, 255, 0);
             background-position: 0;
         }
     }
